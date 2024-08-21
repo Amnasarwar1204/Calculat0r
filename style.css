@@ -77,10 +77,10 @@ button:hover{
 @media( max-width:600px) {
     .calculater{
         background:#466b53;
-        padding-right: 5%;
-        padding-left: 5%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
         border: 1 px solid #000;
         border-radius: 16px;
         box-shadow: 0px 3px 15px #18211b;
@@ -88,7 +88,7 @@ button:hover{
         
     }
     input{
-        width: 100%;
+        width: 90%;
         background: #a8a283;
         box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4);
         font-size: 25px;
@@ -97,6 +97,9 @@ button:hover{
         border: solid 2px rgba(255, 255, 255, 0.3) ;
         border-radius: 10px;
         text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 5%;
+        margin-left:5% ;
+        margin-right: 5%;
     }
     input::placeholder{
         color: #fff;
